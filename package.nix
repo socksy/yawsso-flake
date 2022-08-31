@@ -1,10 +1,10 @@
 {pkgs, ...}:
 pkgs.python3Packages.buildPythonApplication rec {
   pname = "yawsso";
-  version = "0.7.1";
+  version = "1.0.0";
   src = pkgs.python3Packages.fetchPypi {
     inherit pname version;
-    sha256 = "0qps809lgaaq0hd2n658zcf35yj6qzxdiik92jz9a7x01d234myr";
+    sha256 = "sha256-xBj1wOjO4SY3B6bIDVVk/icLLrh/3wMX8u2dYtIpKiw";
   };
   doCheck = false;
 }
